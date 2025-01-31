@@ -65,3 +65,29 @@ footer{
 #container-icone-go{
     margin-left: 150px;
 }
+
+.container-relative{
+    position: relative;
+}
+
+.container-info-lente{
+    position: absolute;
+    top: 4%;
+    left: 3%;
+}
+
+.margin-input-main img{
+    margin: 8px;
+}
+
+.container-info-lente-interno{
+    margin-top: 40%;
+}
+
+.img-container-main-info-lente{
+    height: 457px;
+}
+
+#container-main{
+    padding: 5px;
+}
