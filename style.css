@@ -9,28 +9,42 @@
 }
 
 .container{
-    width: 800px;
+    width: 765px;
     height: 800px;
+}
+
+.position-relative{
+    position: relative;
 }
 
 .icone{
     width: 55px;
     height: 55px;
-    margin-top: 6px;
+    margin-top: 9px;
     margin-left: 0px;
+}
+
+.icone:hover{
+    cursor: pointer;
 }
 
 .icone-blocadora{
     width: 82px;
     height: 55px;
-    margin-top: 6px;
+    margin-top: 9px;
     margin-left: 5px;
 }
 
+
+.icone-blocadora:hover{
+    cursor: pointer;
+}
+
 nav{
-    background-image: url(media/layout/connexion_background_32x32.bmp);
+    display: flex;
+    background-color: #CCD4D9;
     height: 40px;
-    min-width: 200px;
+    min-width: 765px;
     background-repeat: no-repeat;
 }
 
@@ -41,7 +55,8 @@ main{
 footer{
     display: flex;
     background-image: url(media/layout/fond_bottom_menu.jpg);
-    height: 61px;
+    height: 64px;
+    width: 765px;
     background-repeat: no-repeat;
 }
 
@@ -63,7 +78,7 @@ footer{
 }
 
 #container-icone-go{
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .container-relative{
@@ -90,4 +105,28 @@ footer{
 
 #container-main{
     padding: 5px;
+    background-color: #CCD4D9;
+}
+
+#img-container-binocular{
+    position: absolute;
+    left: 84%;
+    top: 86%;
+    background-color: red;
+}
+
+#img-container-binocular:hover{
+    cursor: pointer;
+}
+
+#img-nasal-mini{
+    position: absolute;
+    left: 90%;
+    top: 2%;
+}
+
+.container-top-icons{
+    display: flex;
+    background: linear-gradient(to bottom, #8CAACE, #C6CFE7);
+    
 }
